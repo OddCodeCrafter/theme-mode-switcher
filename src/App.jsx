@@ -6,13 +6,9 @@ import { useState, useEffect } from "react";
 function App() {
   const [themeMode, setThemeMode] = useState("light");
 
-  const lightMode = () => {
-    setThemeMode("light");
-  };
+  const lightMode = () => setThemeMode("light");
 
-  const darkMode = () => {
-    setThemeMode("dark");
-  };
+  const darkMode = () => setThemeMode("dark");
 
   //Actual Change in Theme
   useEffect(() => {

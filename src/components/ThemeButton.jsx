@@ -14,11 +14,8 @@ export default function ThemeButton() {
   // };
 
   const onChangeTheme = () => {
-    if (themeMode === "light") {
-      darkMode();
-    } else {
-      lightMode();
-    }
+    if (themeMode === "light") darkMode();
+    else lightMode();
   };
 
   return (
